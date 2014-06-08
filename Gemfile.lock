@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    loggability (0.11.0)
+    method_source (0.8.2)
+    pg (0.17.1)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    sequel (3.48.0)
+    slop (3.5.0)
+    sqlite3 (1.3.9)
+    wordnet (1.0.0)
+      loggability (~> 0.5)
+      sequel (~> 3.38)
+    wordnet-defaultdb (1.0.1)
+      sqlite3 (~> 1.3)
+      wordnet (~> 1.0.0.pre)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pg
+  pry
+  wordnet
+  wordnet-defaultdb
